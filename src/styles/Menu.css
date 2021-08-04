@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: lightblue;
+    background-image: url("../assets/img/headerBack.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    border: 2px solid rgb(0, 0, 0);
+    color: #fff;
+}
+
+@media (min-width: 1400px) {
+    .sidebar {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .sidebar p {
+        text-align: center;
+    }
+
+    .sidebar div {
+        padding: 1px;
+        font-size: 18px;
+        display: block;
+    }
+}
